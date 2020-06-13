@@ -23,7 +23,7 @@ export default {
     },
     random () {
       this.numlist.sort(() => Math.random() - 0.5)
-      //另一种方法：this.numlist.sort(() => Math.random() < 0.5 ? 1 : -1)
+    // 另一种方法：this.numlist.sort(() => Math.random() < 0.5 ? 1 : -1)
     },
     getLocate () {
       return Math.floor(Math.random() * this.numlist.length)
